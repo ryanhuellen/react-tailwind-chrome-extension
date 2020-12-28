@@ -1,6 +1,3 @@
 chrome.runtime.onInstalled.addListener(function () {
-  console.log("installed");
-  // chrome.storage.sync.set({color: '#3aa757'}, function() {
-  //   console.log("The color is green.");
-  // });
+  console.log('The Tailwind -> JSX chrome extension has been installed.');
 });
